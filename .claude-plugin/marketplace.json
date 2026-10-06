@@ -1,12 +1,19 @@
 {
   "name": "cuso0925-plugins",
   "description": "cuso0925 的个人 Claude 插件市场",
-  "owner": { "name": "cuso0925" },
+  "owner": {
+    "name": "cuso0925"
+  },
   "plugins": [
     {
       "name": "jiandaoyun-integration-guide",
       "source": "./plugins/jiandaoyun-integration-guide",
       "description": "简道云对接配置指南：开放 API、Webhook、SSO、前端事件、自建插件、MCP 等对接方案与排错"
+    },
+    {
+      "name": "jiandaoyun-support",
+      "source": "./plugins/jiandaoyun-support",
+      "description": "简道云技术专家：表单设计、流程自动化、数据管理、权限配置、API 集成、智能助手与问题排查"
     }
   ]
 }

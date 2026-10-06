@@ -7,6 +7,7 @@
 | 插件 | 说明 |
 |------|------|
 | `jiandaoyun-integration-guide` | 简道云对接配置指南（开放 API、Webhook、SSO、前端事件、自建插件、MCP） |
+| `jiandaoyun-support` | 简道云技术专家（表单、流程、数据管理、权限、智能助手、问题排查） |
 
 ## 安装
 
@@ -15,6 +16,7 @@
 ```
 /plugin marketplace add cuso0925/claude-plugins
 /plugin install jiandaoyun-integration-guide@cuso0925-plugins
+/plugin install jiandaoyun-support@cuso0925-plugins
 ```
 
 ## 来源与版权
@@ -22,5 +24,9 @@
 `jiandaoyun-integration-guide` 技能内容来自 SkillHub：
 <https://skillhub.cn/skills/@org-nznpea4p/jiandaoyun-integration-guide>（v1.0.0，作者：南京致和），
 此处仅做插件格式封装，内容版权归原作者所有。
+
+`jiandaoyun-support` 技能内容来自 SkillHub：
+<https://skillhub.cn/skills/@org-nznpea4p/jiandaoyun-support>（v1.0.0，作者：南京致和），
+同样仅做插件格式封装。
 
 `scripts/jdy_api.py` 需要设置环境变量 `JDY_API_KEY` 才能调用简道云 API，请勿把密钥提交到仓库。
