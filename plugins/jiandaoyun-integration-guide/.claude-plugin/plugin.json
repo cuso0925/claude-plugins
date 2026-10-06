@@ -1,0 +1,8 @@
+{
+  "name": "jiandaoyun-integration-guide",
+  "version": "1.0.0",
+  "description": "简道云对接配置指南：开放 API、Webhook、SSO、前端事件、自建插件、MCP 等对接方案选型、配置步骤、参数速查与排错清单",
+  "author": { "name": "南京致和（原作者，SkillHub @org-nznpea4p）" },
+  "homepage": "https://skillhub.cn/skills/@org-nznpea4p/jiandaoyun-integration-guide",
+  "keywords": ["jiandaoyun", "简道云", "api", "webhook", "sso", "mcp"]
+}
