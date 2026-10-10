@@ -8,6 +8,7 @@
 |------|------|
 | `jiandaoyun-integration-guide` | 简道云对接配置指南（开放 API、Webhook、SSO、前端事件、自建插件、MCP） |
 | `jiandaoyun-support` | 简道云技术专家（表单、流程、数据管理、权限、智能助手、问题排查） |
+| `jiandaoyun-chrome` | 简道云后台配置批量操作（通过 Chrome 调网页端内部接口改字段、流程、聚合表、助手等） |
 
 ## 安装
 
@@ -17,6 +18,7 @@
 /plugin marketplace add cuso0925/claude-plugins
 /plugin install jiandaoyun-integration-guide@cuso0925-plugins
 /plugin install jiandaoyun-support@cuso0925-plugins
+/plugin install jiandaoyun-chrome@cuso0925-plugins
 ```
 
 ## 来源与版权
@@ -30,3 +32,5 @@
 同样仅做插件格式封装。
 
 `scripts/jdy_api.py` 需要设置环境变量 `JDY_API_KEY` 才能调用简道云 API，请勿把密钥提交到仓库。
+
+`jiandaoyun-chrome` 为自研技能，需配合 Claude in Chrome 使用，在已登录的简道云页面内执行；CSRF 令牌只留在页面内存，apiKey 只放本机文件，请勿提交到仓库。
